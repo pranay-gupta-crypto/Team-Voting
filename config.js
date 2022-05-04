@@ -1,14 +1,14 @@
 import firebase from 'firebase';
 
-var firebaseConfig = {
-  apiKey: "AIzaSyCwXq1FV8N151orYeGIKRSlA7P6Lhl347U",
-  authDomain: "team-voting-5fbb8.firebaseapp.com",
-  databaseURL: "https://team-voting-5fbb8-default-rtdb.firebaseio.com",
-  projectId: "team-voting-5fbb8",
-  storageBucket: "team-voting-5fbb8.appspot.com",
-  messagingSenderId: "876249878969",
-  appId: "1:876249878969:web:c73b1c42433274a160e668"
+const firebaseConfig = {
+  apiKey: "AIzaSyDk92D4MmYodbaanR8CC-4BZgYc_DLbNQQ",
+  authDomain: "c67-2ede0.firebaseapp.com",
+  projectId: "c67-2ede0",
+  storageBucket: "c67-2ede0.appspot.com",
+  messagingSenderId: "251995484965",
+  appId: "1:251995484965:web:266da1c8aa557bd94920cc"
 };
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
